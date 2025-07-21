@@ -121,6 +121,9 @@ font-size: 41px;
 /* shoes and backpack related styles */
 .shoes-backpack-section{
     background: #F4F4F4;
+    padding-bottom: 80px;
+    margin-bottom: 70px;
+   
 }
 .shoes-section h4{
 font-weight: 600;
@@ -140,7 +143,7 @@ border-radius: 10px;
 .shoes-card h4{
     font-weight: 600;
     font-size: 24px;
-    margin-bottom: 0;
+    
 }
 .shoes-card p{
     color: #4E4E4E;
@@ -156,6 +159,26 @@ height: 202px;
 }
 .shoes-card .panda-btn{
     background: black;
+}
+
+
+/* footer styles */
+
+.footer{
+    background: #FFF2F1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.footer-div input{
+color: white;
+    font-weight: 500;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 10px;
+    width: 300px;
 }
 /* responsive styles for mobile device*/
 @media screen and (max-width:576px){
