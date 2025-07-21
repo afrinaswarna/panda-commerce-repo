@@ -1,0 +1,37 @@
+.container{
+max-width: 1280px;
+margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item input{
+border-radius: 66px;
+background: rgb(241, 241, 241);
+padding: 15px 30px;
+width: 300px;
+border: 0;
+color: #CCCCCC;
+font-weight: 500;
+}
+.nav-item i{
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    color: #BABABA;
+}
